@@ -69,7 +69,7 @@ Style.prototype.toString = function(){
   this.use(rework.prefix(props));
   this.use(rework.colors());
   this.use(rework.references());
-  this.use(rework.at2x());
+  // this.use(rework.at2x());
   this.use(rework.extend());
   return this.rework.toString({ compress: this.compress });
 };
